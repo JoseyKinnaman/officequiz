@@ -3,7 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating Quiz</title>
+    <title>Celebrity Date Quiz</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container-jumbotron">
+      <img src="img/logo.jpeg" alt="TheOfficeLogo">
+     <h1>Celebrity Dating Quiz!</h1>
+     <p>Take this quiz to find your perfect celebrity match</p>
+
+     <form id="quiz">
+       <div class="form-group">
+         <label for="nameInput">Name</label>
+         <input class="form-control" id="nameInput" type="text"></input>
+        
+       </div>
+       <div class="form-group">
+        <label for="gender">What gender are you interested in?</label>
+        <select class="form-control" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="quality">What quality is most important to you?></label>
+        <select class="form-control" id="quality">
+          <option value="quality-1">They make me laugh.</option>
+          <option value="quality-2">They are compassionate and care about giving back.</option>
+          <option value="quality-3">They have a black belt</option>
+        </select>  
+      </div> 
+      
+      <div class="form-group">
+        <label for="date">My perfect first date would be:</label>
+        <select class="form-control" id="date">
+          <option value="date-1">Go get drunk</option>
+          <option value="date-2">Play some pranks</option>
+          <option value="date-3">Go to church</option>
+        </select>
+
+          
+
+
+
+
+
+     </form>
+
+
+    </div>
+  
+  </body>
 </html>
